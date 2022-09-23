@@ -1,0 +1,53 @@
+.inner {
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+}
+.image {
+  cursor: pointer;
+}
+.image:last-child{
+  margin-left: 12px;
+}
+.wrapper{
+  position: relative;
+}
+
+.amountContainer{
+    position: absolute;
+    top: -0.85rem;
+    right: -0.85rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background-color: #3BAEAB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amount{
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.close{
+  margin-left: 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: #18a7a7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

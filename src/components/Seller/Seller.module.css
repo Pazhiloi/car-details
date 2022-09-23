@@ -1,0 +1,57 @@
+.item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.name{
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.rating{
+  margin-bottom: 5px;
+}
+.reviews{
+  color: #867777;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+}
+.service{
+  margin-right: 30px;
+}
+.city{
+margin-left: 10px;
+font-weight: 500;
+}
+
+.infoWrapper{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.price{
+  font-weight: 500;
+  font-size: 18px;
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+.wrapper{
+  width: 130px;
+}
+.info,
+.price,
+.buttons{
+  margin-left: 80px;
+}
+.buttons{
+  width: 380px;
+}
+
+.button{
+  margin-left: auto;
+}
+

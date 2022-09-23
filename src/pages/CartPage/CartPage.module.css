@@ -1,0 +1,87 @@
+.title {
+  padding: 40px 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.info {
+  margin-left: 30px;
+}
+.infoTitle {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.price {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.buttonUp,
+.buttonDown {
+  cursor: pointer;
+  font-size: 0.85rem;
+  background: transparent;
+  border: none;
+  margin-top: 0.375rem;
+  margin-bottom: 10px;
+}
+.amount {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+}
+.remove {
+  cursor: pointer;
+  font-size: 0.85rem;
+  background: transparent;
+  border: none;
+}
+.image {
+  width: 80px;
+  height: 80px;
+}
+.hr {
+  margin: 40px 0;
+  border-color: transparent;
+  border-width: 0.25px;
+  background-color: #333;
+}
+.total,
+.totalPrice {
+  color: #102a42;
+  font-size: 28px;
+  font-weight: 500;
+}
+.totalWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #102a42;
+}
+
+.button {
+  cursor: pointer;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border: 1px solid #bb2525;
+  border: 1px solid red;
+  margin-top: 2.25rem;
+  transition: background-color 0.5s ease;
+  color: #bb2525;
+}
+.button:hover{
+  background-color: #bb2525;
+}
+.buttonWrapper{
+  text-align: center;
+}

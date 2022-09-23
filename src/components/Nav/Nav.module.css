@@ -1,0 +1,10 @@
+.link{
+ font-size: 12px; 
+ margin-left: 30px;
+ color: #333;
+ text-decoration: none;
+}
+.navList{
+  display: flex;
+  align-items: center;
+}

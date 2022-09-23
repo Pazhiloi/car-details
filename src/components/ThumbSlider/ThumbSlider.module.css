@@ -1,0 +1,17 @@
+.top{
+  margin-bottom: 20px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+}
+.mainImage{
+  width: 555px;
+  height: 411px;
+}
+.wrapper{
+  cursor: pointer;
+}
+.wrapper:not(:last-child){
+  margin-left: 15px;
+}

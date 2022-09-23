@@ -1,0 +1,22 @@
+.variantCheckboxes{
+  display: flex; 
+  align-items: center;
+}
+.variantCheckboxes > div:last-child{
+  margin-left: 10px;
+}
+.checkboxes{
+  margin-bottom: 25px;
+}
+.label{
+  margin-bottom: 10px;
+}
+.resetFilter{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.span{
+margin-left: 10px;
+color: #867777;
+}

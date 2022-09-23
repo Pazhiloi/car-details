@@ -1,0 +1,49 @@
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sectionTitle{
+  text-align: center;
+  margin: 4rem 0 6rem 0;
+}
+
+.underline{
+   width: 8rem;
+  height: 0.25rem;
+  background: hsl(205, 78%, 60%);
+  margin: 0 auto;
+}
+
+.followers {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+}
+.container {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.title{
+  font-size: 2.75rem;
+  margin-bottom: 0.75rem;
+}
+.prevBtn,
+.nextBtn{
+  background: transparent;
+  border-color: transparent;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}

@@ -1,0 +1,27 @@
+.wrapper{
+  margin-bottom: 10px;
+}
+.inner{
+display: flex;
+align-items: center;
+}
+.top{
+  display: flex;
+  justify-content: space-between;align-items: center;
+  margin-left: 10px;
+  margin-top: -60px;
+}
+.product{
+width: 651px;
+padding: 8px 15px;
+background: #E9F7F7;
+margin-bottom: 30px;
+}
+
+.price{
+margin-left: 100px;
+}
+.bottom{
+  display: flex;
+  justify-content: end;
+}

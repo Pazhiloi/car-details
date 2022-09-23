@@ -1,0 +1,7 @@
+export const cartTypes = {
+  ADD_TO_CART: "ADD_TO_CART",
+  CLEAR_CART: "CLEAR_CART",
+  REMOVE: "REMOVE",
+  TOGGLE_AMOUNT: "TOGGLE_AMOUNT",
+  GET_TOTALS: "GET_TOTALS",
+};

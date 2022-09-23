@@ -1,0 +1,12 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 9px;
+}
+.product{
+  width: 228px;
+  height: 287px;
+  background: rgba(31, 175, 172, 0.1);
+  padding: 20px;
+}
+

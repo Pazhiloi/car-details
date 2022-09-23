@@ -1,0 +1,33 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f8f8;
+  padding: 45px 0;
+}
+.wrapper {
+  max-width: 514px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.center img {
+  width: 100%;
+}
+
+.title {
+  color: #18a7a7;
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.button {
+  font-size: 16px;
+  padding: 12px 115px;
+  background-color: #18a7a7;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+}

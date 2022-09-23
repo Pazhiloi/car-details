@@ -1,0 +1,46 @@
+.product{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+.productRight{
+  margin-left: 30px;
+  max-width: 555px;
+  width: 100%;
+}
+.title{
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.data{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.number,
+.reviews,
+.orders{
+  margin-left: 10px;
+  color: #867777;
+}
+.priceTitle{
+  font-weight: 500;
+  font-size: 18px;
+  color: #867777;
+  margin-bottom: 15px;
+}
+.price{
+  font-size: 24px;
+  font-weight: 500;
+}
+.priceWrapper{
+  margin-bottom: 25px;
+
+}
+.buttons{
+  display: flex;
+  align-items: center;
+}
